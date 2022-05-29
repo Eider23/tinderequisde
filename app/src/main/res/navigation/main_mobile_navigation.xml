@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_mobile_navigation"
+    app:startDestination="@id/mainDestination">
+
+    <fragment
+        android:id="@+id/mainDestination"
+        android:name="com.tinderequisde.tinderequisde.ui.MainFragment"
+        android:label="mainFragment"
+        tools:layout="@layout/main_fragment" />
+
+    <fragment
+        android:id="@+id/profileDetailDestination"
+        android:name="com.tinderequisde.tinderequisde.ui.DetailFragment"
+        android:label="detailFragment"
+        tools:layout="@layout/fragment_detail" />
+
+</navigation>
